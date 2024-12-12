@@ -1,0 +1,28 @@
+# Laravel specific files
+/vendor/
+/node_modules/
+public/storage
+/storage/*.key
+.env
+
+# Caches
+*.log
+*.cache
+*.phpunit.result.cache
+
+# IDE and Editor specific files
+/.vscode/
+/.idea/
+/nbproject/
+/.DS_Store
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Composer dependencies
+composer.lock
+
+# NPM/Yarn dependencies
+package-lock.json
+yarn.lock
